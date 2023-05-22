@@ -3,6 +3,7 @@ body{
     background-image: url(../nathanDem-Thanushan_Tp3_Web/abstract-stripes-golden-lines-diagonal-overlap-on-black-background-luxury-stryle-free-vector.jpg);
    background-size: cover;
    background-size: 100%;
+
    
    }
 
@@ -12,6 +13,12 @@ right: 20%;
 top: 30%;
    }
    
+   .windows95{
+    float: right;
+    width: 40%;
+    bottom: 0%;
+
+   }
   
    
     
