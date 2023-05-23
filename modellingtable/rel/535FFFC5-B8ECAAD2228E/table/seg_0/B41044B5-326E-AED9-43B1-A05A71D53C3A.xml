@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B41044B5-326E-AED9-43B1-A05A71D53C3A" name="RapportsVirus">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>2FA8D9D3-0E6E-3221-1DF5-47A52D85E85C</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="report_id" id="A125C0F9-B8C2-8096-E1C7-7BD4D0E1752B">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>6EAFC511-D8BE-E5B5-A2D2-D61A816B200E</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="device_name" id="63BEB0FA-DF18-AB3E-D860-7AEB09DB79D6">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>CECE9392-578B-65D2-BFD5-BD3E412C754D</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="report_date" id="CA3F429F-2B37-857C-9CF8-D552F060A5F5">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>F7792F63-8E20-1725-63F8-1E40F91C317E</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="virus_name" id="41D14167-D80E-2334-DED0-0528F51BD7CA">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>4D4FB79F-A69C-3D42-FFE7-4FCB37522AC6</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E1DF6260-0071-6F7A-8000-4F53316B4D4F">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>B7287D5C-60D4-3312-287F-D100882CF516</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C4A9ED5-C910-9C36-B6EC-872C6928333F" name="RapportsVirus_PK">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>E8554447-396C-F825-DAC9-C645A53E196A</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A125C0F9-B8C2-8096-E1C7-7BD4D0E1752B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

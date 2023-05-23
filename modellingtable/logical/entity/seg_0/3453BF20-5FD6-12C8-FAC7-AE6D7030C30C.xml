@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3453BF20-5FD6-12C8-FAC7-AE6D7030C30C" name="Appareils">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-22 15:25:19 UTC</createdTime>
+<ownerDesignName>modellingtable</ownerDesignName>
+<engineerTo>
+<item key="535FFFC5-C41A-3C51-7A2A-B8ECAAD2228E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="device_id" id="8EE2D981-A374-028C-475F-C467B4CAF609">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-22 16:46:34 UTC</createdTime>
+<ownerDesignName>modellingtable</ownerDesignName>
+<engineerTo>
+<item key="535FFFC5-C41A-3C51-7A2A-B8ECAAD2228E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id " id="C9A2ACC2-29C0-5509-DA68-290313F85D44">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-22 16:46:47 UTC</createdTime>
+<ownerDesignName>modellingtable</ownerDesignName>
+<engineerTo>
+<item key="535FFFC5-C41A-3C51-7A2A-B8ECAAD2228E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="device_name" id="0CB595B9-0F60-9434-841B-B87384D96C79">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-22 16:47:29 UTC</createdTime>
+<ownerDesignName>modellingtable</ownerDesignName>
+<engineerTo>
+<item key="535FFFC5-C41A-3C51-7A2A-B8ECAAD2228E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ip_address" id="47AD604A-3EB3-0CDC-24DB-DBC3C9CC0FF8">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-22 16:47:30 UTC</createdTime>
+<ownerDesignName>modellingtable</ownerDesignName>
+<engineerTo>
+<item key="535FFFC5-C41A-3C51-7A2A-B8ECAAD2228E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94030A28-98B6-0945-B05A-AD227B28E194" name="Appareils PK">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-22 16:46:45 UTC</createdTime>
+<ownerDesignName>modellingtable</ownerDesignName>
+<engineerTo>
+<item key="535FFFC5-C41A-3C51-7A2A-B8ECAAD2228E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EE2D981-A374-028C-475F-C467B4CAF609</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

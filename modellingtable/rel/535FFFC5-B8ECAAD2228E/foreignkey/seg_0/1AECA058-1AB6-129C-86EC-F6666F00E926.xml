@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AECA058-1AB6-129C-86EC-F6666F00E926" containerWithKeyObject="861D6D3F-A801-57FD-1272-26A9E9CFDE90" localFKIndex="2F836183-3597-871E-17EA-CE861DDC26CB" name="Utilisateurs_LogsFirewall_FK">
+<createdBy>thanu</createdBy>
+<createdTime>2023-05-23 02:23:12 UTC</createdTime>
+<generatorID>414773B4-EB99-32A8-22D7-D3831DD27125</generatorID>
+<ownerDesignName>modellingtable</ownerDesignName>
+<referredTableLongName>LogsFirewall</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D33FC9E2-5B99-71F3-A0AD-7B08DC7822D4</referredTableID>
+<keyObject>E9042031-33D9-9997-585B-7726F5C82745</keyObject>
+<referredKeyID>E9042031-33D9-9997-585B-7726F5C82745</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>logs_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
