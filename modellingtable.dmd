@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modellingtable" id="9951185B-9438-4800-7956-7626460D059C" version="3.5">
-<createdBy>thanu</createdBy>
-<createdTime>2023-05-22 14:51:14 UTC</createdTime>
-<ownerDesignName>modellingtable</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>9951185B-9438-4800-7956-7626460D059C</designId>
-</OSDM_Design>
