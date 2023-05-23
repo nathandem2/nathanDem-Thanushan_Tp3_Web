@@ -1,0 +1,41 @@
+body{
+
+    background-image: url(../nathanDem-Thanushan_Tp3_Web/computercough.jpg);
+   background-size: cover;
+   background-size: 100%;
+
+   
+   }
+
+   .image
+   {
+right: 20%;
+top: 30%;
+   }
+   
+   .windows95{
+    float: right;
+    width: 40%;
+    bottom: 0%;
+
+   }
+  
+   
+    h1{
+color: black;
+text-align: center;
+
+    }
+
+   #root{
+      color: white;
+    text-align: center;
+font-size: 40px;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+      1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+      border-width: 10px;
+      border-color: black;
+      font-family: sans-
+      
+
+   } 
